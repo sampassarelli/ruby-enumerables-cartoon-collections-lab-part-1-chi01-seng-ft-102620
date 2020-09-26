@@ -8,7 +8,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  arra.each_with_index do |element, index|
+  array.each_with_index do |element, index|
     puts "#{index + 1}. #{element}"
   end
   # Use `each_with_index` to enumerate over the provided array
